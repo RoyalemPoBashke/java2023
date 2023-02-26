@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Тоблица синусов");
         for (double i=0; i <= 45; i+=5)
             {
-                System.out.println("Синус    " + i + "    " + Math.sin(i));
+                System.out.println("Синус    " + (int)i + " градусов    " + Math.sin(i));
             }
     }
 }
